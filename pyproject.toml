@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arduino-serial-monitor"
+version = "0.1.0"
+description = "A real-time serial monitor for Arduino with auto-detection and plotting capabilities"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "GPL-3.0-or-later"}
+authors = [
+    {name = "Pranav Jayakumar", email = "jayakumar.pranav@gmail.com"},
+]
+dependencies = [
+    "pyserial>=3.5",
+    "matplotlib>=3.7.0",
+    "numpy>=1.24.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/pranav-jay26/arduino-serial-monitor"
+Repository = "https://github.com/pranav-jay26/arduino-serial-monitor.git"
+
+[tool.setuptools.packages.find]
+include = ["arduino_serial_monitor*"]
+
+[project.scripts]
+serial_monitor = "arduino_serial_monitor.__main__:main" 
