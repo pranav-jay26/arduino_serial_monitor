@@ -101,7 +101,8 @@ void loop() {
 
 ## Troubleshooting
 
-1. **No devices found**: 
+1. **No devices found**:
+
    - Check if your Arduino is properly connected
    - Verify you have permission to access the serial port
    - Try running with sudo on Linux if needed
@@ -141,8 +142,10 @@ This project is licensed under the GNU General Public License v3.0 - see the LIC
 
 ## Contact
 
-Pranav Jayakumar - jayakumar.pranav@gmail.com
+Pranav Jayakumar - <jayakumar.pranav@gmail.com>
 
-Project Link: [https://github.com/pranav-jay26/arduino-serial-monitor](https://github.com/pranav-jay26/arduino-serial-monitor)
+Project Link: [https://github.com/pranav-jay26/arduino_serial_monitor](https://github.com/pranav-jay26/arduino_serial_monitor)
+
 ```
 
+```
