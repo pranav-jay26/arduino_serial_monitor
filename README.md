@@ -11,6 +11,19 @@ A Python-based real-time serial monitor for Arduino with automatic port detectio
 - 🛑 Graceful handling of connection issues
 - ⌨️ Simple command-line interface
 
+## Using Nix
+
+### basic usage
+run with
+```
+nix run github:pranav-jay26/arduino_serial_monitor
+```
+Alternatively
+```
+nix build github:pranav-jay26/arduino_serial_monitor
+./result/bin/serial_monitor
+```
+
 ## Installation
 
 ### Quick Install (Linux/MacOS)
