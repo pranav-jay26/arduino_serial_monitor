@@ -11,20 +11,28 @@ A Python-based real-time serial monitor for Arduino with automatic port detectio
 - 🛑 Graceful handling of connection issues
 - ⌨️ Simple command-line interface
 
-## Using Nix
+## Installation Using Nix
+
+This project has been packaged as a Nix flake. Here is how to install and run the serial monitor.
 
 ### basic usage
+
 run with
+
 ```
 nix run github:pranav-jay26/arduino_serial_monitor
 ```
+
 Alternatively
+
 ```
 nix build github:pranav-jay26/arduino_serial_monitor
 ./result/bin/serial_monitor
 ```
 
-## Installation
+## Legacy Installation
+
+If you are not comfortable with the Nix package manager, or would like to use the legacy installation method, follow these steps.
 
 ### Quick Install (Linux/MacOS)
 
